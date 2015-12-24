@@ -1,0 +1,57 @@
+Enter the no.of states
+5
+For state A:
+Enter the next state
+When 'a' is the input
+A
+When 'b' is the input
+C
+For state B:
+Enter the next state
+When 'a' is the input
+B
+When 'b' is the input
+A
+For state C:
+Enter the next state
+When 'a' is the input
+C
+When 'b' is the input
+A
+For state D:
+Enter the next state
+When 'a' is the input
+E
+When 'b' is the input
+D
+For state E:
+Enter the next state
+When 'a' is the input
+E
+When 'b' is the input
+E
+Enter the no of final states
+2
+Enter the final states
+D
+E
+Initial transition table
+States	Input 'a'  Input 'b'
+A	      A	          C
+B	      B	          A
+C	      C	          A
+D	      E         	D
+E	      E	          E
+Minimizing the DFA
+State A is equivalent to state B
+State A is equivalent to state C
+State B is equivalent to state A
+State B is equivalent to state C
+State C is equivalent to state A
+State C is equivalent to state B
+State D is equivalent to state E
+State E is equivalent to state D
+The transition table is
+State	Input 'a'  Input 'b'
+A	      A	        A
+D	      D	        D
